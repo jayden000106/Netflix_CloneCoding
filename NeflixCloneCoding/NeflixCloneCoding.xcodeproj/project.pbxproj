@@ -18,6 +18,10 @@
 		78AF38B2287A9FBC00BA81D4 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78AF38B1287A9FBC00BA81D4 /* BebasNeue.otf */; };
 		78AF38B5287AB2D600BA81D4 /* RowMovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF38B4287AB2D600BA81D4 /* RowMovieList.swift */; };
 		B919C987287DF5AA00EB9D42 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B919C986287DF5AA00EB9D42 /* ContentDetailView.swift */; };
+		B9BAD9802882F11D00EE530F /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD97F2882F11D00EE530F /* TestViewModel.swift */; };
+		B9BAD9822882F12E00EE530F /* Respond.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD9812882F12E00EE530F /* Respond.swift */; };
+		B9BAD9842882F14600EE530F /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD9832882F14600EE530F /* MovieService.swift */; };
+		B9BAD9862882F19400EE530F /* APITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD9852882F19400EE530F /* APITestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		78AF38B1287A9FBC00BA81D4 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
 		78AF38B4287AB2D600BA81D4 /* RowMovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowMovieList.swift; sourceTree = "<group>"; };
 		B919C986287DF5AA00EB9D42 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		B9BAD97F2882F11D00EE530F /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		B9BAD9812882F12E00EE530F /* Respond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respond.swift; sourceTree = "<group>"; };
+		B9BAD9832882F14600EE530F /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		B9BAD9852882F19400EE530F /* APITestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +74,12 @@
 		78268A98287016BB0099F75C /* NeflixCloneCoding */ = {
 			isa = PBXGroup;
 			children = (
+				B9BAD97E2882EFD400EE530F /* Services */,
+				B9BAD97D2882EFCF00EE530F /* Models */,
+				B9BAD97C2882EFC900EE530F /* ViewModels */,
+				B9BAD97B2882EFC200EE530F /* Views */,
 				78AF38AD287A9EA600BA81D4 /* Info.plist */,
 				78AF38AB287A9E7400BA81D4 /* fonts */,
-				7862CCDB2875B0DA00FE3545 /* Main */,
-				B919C985287DF58500EB9D42 /* Detail */,
 				78268A99287016BB0099F75C /* NeflixCloneCodingApp.swift */,
 				78268A9B287016BB0099F75C /* ContentView.swift */,
 				78268A9D287016BC0099F75C /* Assets.xcassets */,
@@ -110,8 +120,42 @@
 			isa = PBXGroup;
 			children = (
 				B919C986287DF5AA00EB9D42 /* ContentDetailView.swift */,
+				B9BAD9852882F19400EE530F /* APITestView.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		B9BAD97B2882EFC200EE530F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7862CCDB2875B0DA00FE3545 /* Main */,
+				B919C985287DF58500EB9D42 /* Detail */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9BAD97C2882EFC900EE530F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B9BAD97F2882F11D00EE530F /* TestViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B9BAD97D2882EFCF00EE530F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B9BAD9812882F12E00EE530F /* Respond.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B9BAD97E2882EFD400EE530F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B9BAD9832882F14600EE530F /* MovieService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,11 +232,15 @@
 				78268A9C287016BB0099F75C /* ContentView.swift in Sources */,
 				78AF38B5287AB2D600BA81D4 /* RowMovieList.swift in Sources */,
 				78AF38AA287A9BA700BA81D4 /* MainPoster.swift in Sources */,
+				B9BAD9802882F11D00EE530F /* TestViewModel.swift in Sources */,
 				B919C987287DF5AA00EB9D42 /* ContentDetailView.swift in Sources */,
+				B9BAD9862882F19400EE530F /* APITestView.swift in Sources */,
+				B9BAD9822882F12E00EE530F /* Respond.swift in Sources */,
 				78268A9A287016BB0099F75C /* NeflixCloneCodingApp.swift in Sources */,
 				78AF38A328770BE700BA81D4 /* TopContent.swift in Sources */,
 				78AF38A72878798600BA81D4 /* CategoryselectionView.swift in Sources */,
 				78AF389F2877033E00BA81D4 /* NetflixMain.swift in Sources */,
+				B9BAD9842882F14600EE530F /* MovieService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NeflixCloneCoding/Preview Content\"";
-				DEVELOPMENT_TEAM = MSUF83HQ8R;
+				DEVELOPMENT_TEAM = 3PFDRPLY6N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NeflixCloneCoding/Info.plist;
@@ -351,7 +399,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NeflixCloneCoding/Preview Content\"";
-				DEVELOPMENT_TEAM = MSUF83HQ8R;
+				DEVELOPMENT_TEAM = 3PFDRPLY6N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NeflixCloneCoding/Info.plist;
