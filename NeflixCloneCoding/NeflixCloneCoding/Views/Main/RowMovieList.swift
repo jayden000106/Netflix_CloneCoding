@@ -35,7 +35,7 @@ struct RowMovieList: View {
                         }
                         else{
                             NavigationLink {
-                                ContentDetailView()
+                                APITestView()
                                     .navigationBarTitleDisplayMode(.inline) //this must be empty
                             } label: {
                                 Image(posterList[index])
