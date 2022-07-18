@@ -19,7 +19,7 @@
 		78AF38B5287AB2D600BA81D4 /* RowMovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF38B4287AB2D600BA81D4 /* RowMovieList.swift */; };
 		B919C987287DF5AA00EB9D42 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B919C986287DF5AA00EB9D42 /* ContentDetailView.swift */; };
 		B9BAD9802882F11D00EE530F /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD97F2882F11D00EE530F /* TestViewModel.swift */; };
-		B9BAD9822882F12E00EE530F /* Respond.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD9812882F12E00EE530F /* Respond.swift */; };
+		B9BAD9822882F12E00EE530F /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD9812882F12E00EE530F /* MovieData.swift */; };
 		B9BAD9842882F14600EE530F /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD9832882F14600EE530F /* MovieService.swift */; };
 		B9BAD9862882F19400EE530F /* APITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD9852882F19400EE530F /* APITestView.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 		78AF38B4287AB2D600BA81D4 /* RowMovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowMovieList.swift; sourceTree = "<group>"; };
 		B919C986287DF5AA00EB9D42 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		B9BAD97F2882F11D00EE530F /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
-		B9BAD9812882F12E00EE530F /* Respond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respond.swift; sourceTree = "<group>"; };
+		B9BAD9812882F12E00EE530F /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 		B9BAD9832882F14600EE530F /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		B9BAD9852882F19400EE530F /* APITestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,7 +145,7 @@
 		B9BAD97D2882EFCF00EE530F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B9BAD9812882F12E00EE530F /* Respond.swift */,
+				B9BAD9812882F12E00EE530F /* MovieData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 				B9BAD9802882F11D00EE530F /* TestViewModel.swift in Sources */,
 				B919C987287DF5AA00EB9D42 /* ContentDetailView.swift in Sources */,
 				B9BAD9862882F19400EE530F /* APITestView.swift in Sources */,
-				B9BAD9822882F12E00EE530F /* Respond.swift in Sources */,
+				B9BAD9822882F12E00EE530F /* MovieData.swift in Sources */,
 				78268A9A287016BB0099F75C /* NeflixCloneCodingApp.swift in Sources */,
 				78AF38A328770BE700BA81D4 /* TopContent.swift in Sources */,
 				78AF38A72878798600BA81D4 /* CategoryselectionView.swift in Sources */,

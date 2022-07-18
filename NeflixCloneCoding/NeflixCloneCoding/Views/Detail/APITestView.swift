@@ -22,8 +22,6 @@ struct APITestView: View {
             
             Button(action: {
                 viewModel.fetchMovies()
-                testString = viewModel.responds?.TotalCount ?? "Fail"
-                let _ = print(viewModel.responds)
             }, label: {
                 ZStack {
                     RoundedRectangle(cornerRadius: 10)
